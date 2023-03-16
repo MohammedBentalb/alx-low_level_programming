@@ -5,9 +5,9 @@
  * main - Entry point
  *
  * Return: Always 1 (Error)
-*/ 
+*/
 int main(void)
 {
-write(STDERR_FILENO, MESSAGE, sizeof(MESSAGE) - 1);
-return (1);
+	write(STDERR_FILENO, MESSAGE, sizeof(MESSAGE) - 1);
+	return (1);
 }
