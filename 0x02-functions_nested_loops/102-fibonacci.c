@@ -7,31 +7,23 @@
 
 int main(void)
 {
+	int i;
+	unsigned long fib, Fib1, Fib2;
 
-long long int a, b, c;
+	Fib1 = 1, Fib2 = 0;
 
-a = 1;
-b = 2;
+	for (i = 0; i < 50; i++)
+	{
+		fib = Fib1 + Fib2;
+		printf("%lu", fib);
 
-int i;
+		Fib2 = Fib1;
+		Fib1 = fib;
+		if (i == 49)
+			printf("\n");
+		else
+			printf(", ");
+	}
 
-printf("%lld, %lld, ", a, b);
-
-for (i = 3; i <= 50; i++)
-{
-c = a + b;
-
-printf("%lld", c);
-
-if (i < 50)
-{
-printf(", ");
-}
-a = b;
-b = c;
-
-
-}
-printf("\n");
-return (0);
+	return (0);
 }
