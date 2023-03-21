@@ -1,10 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * _abs - Prints absolute value
+ * @n: Variable
+ * Return: Returns
+ */
 
-int _abs(int c)
+int _abs(int n)
 {
 
-return (abs(c));
+return (abs(n));
 
 }
