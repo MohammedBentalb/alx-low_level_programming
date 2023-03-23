@@ -4,7 +4,7 @@
  * _isupper - Prints last digit
  *
  * @c: intiger input number
- * 
+ *
  * Return: last digit.
  */
 
