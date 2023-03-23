@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - print straight line 
+ * print_line - print straight line
  * @n: how many times should the character _ should be printed
  */
 
