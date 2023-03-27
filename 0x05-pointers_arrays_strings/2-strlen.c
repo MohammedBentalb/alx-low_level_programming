@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_strlen - Function to swap values of *a and *b
- * @s: ponter
- * main - Entry function
+ * _strlen - Returns the length of a string.
+ * @s: The string to get the length of.
+ *
+ * Return: The length of @s.
  */
-
 int _strlen(char *s)
 {
 int n = 0;
