@@ -9,20 +9,20 @@
  *
  */
 
-
 char *_strchr(char *s, char c)
 {
+int check;
 
-
-while (*s != '\0')
+while (1)
 {
-if (*s == c)
+check = *s++;
+if (check == c)
 {
-return (s);
+return (s - 1);
 }
-s++;
-}
-
+if (check == 0)
+{
 return (NULL);
-
+}
+}
 }
