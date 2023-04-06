@@ -3,7 +3,7 @@
 /**
  * wildcmp - campairing two strings
  * @s1: string
- * @s2: string 
+ * @s2: string
  * Return: Return 1 || 0
  **/
 
