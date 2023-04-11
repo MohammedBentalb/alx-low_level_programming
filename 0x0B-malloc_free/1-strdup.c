@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * *_strdup - Function that returns a pointer to a newly allocated space in memory
+ * *_strdup - Function returns  pointer to newly allocated space
  *@str: the string that its value mush be copied inside the memory space
  *Retrun: Return p || 0
  */
@@ -17,9 +17,9 @@ char *_strdup(char *str)
 		return (NULL);
 
 
-       p = malloc(strlen(str)* sizeof(char));
+	p = malloc(sizeof(str) * sizeof(char));
 
-	if(p == NULL)
+	if (p == NULL)
 		return (NULL);
 
 	for (i = 0; str[i] != '\0'; i++)
