@@ -5,8 +5,9 @@
 
 /**
  * *_strdup - Function returns  pointer to newly allocated space
- *@str: the string that its value mush be copied inside the memory space
- *Retrun: Return p || 0
+ * @str: the string that its value mush be copied inside the memory space
+ * retrun: Return p || NULL
+ * Return: Return a pointer or NULL
  */
 char *_strdup(char *str)
 {
@@ -17,7 +18,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 
-	p = malloc(sizeof(str) * sizeof(char));
+	p = malloc(sizeof(*str) * sizeof(char));
 
 	if (p == NULL)
 		return (NULL);
@@ -30,7 +31,4 @@ char *_strdup(char *str)
 
 
 return (p);
-
-
-
 }
