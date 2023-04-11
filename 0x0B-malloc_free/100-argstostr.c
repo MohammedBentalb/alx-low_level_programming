@@ -26,6 +26,7 @@ for (i = 0; i < ac; i++)
 	{
 	l1++;
 	}
+	l1++;
 }
 
 	p = (char *) malloc((sizeof(char) * l1) + 1);
