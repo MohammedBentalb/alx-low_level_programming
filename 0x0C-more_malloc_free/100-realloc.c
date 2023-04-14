@@ -7,7 +7,7 @@
 * @ptr: pointer
 * @old_size: as the variable name's tell
 * @new_size: the name tells it all
-* Return: Return moh (acc to my name mohammed :) ) or || ptr || null
+* Return: Return ptr || null
 */
 
 
