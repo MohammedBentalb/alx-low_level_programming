@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
 /**
  * new_dog - Function that creates a new dog
  * @name: the name
@@ -11,8 +10,6 @@
  * @owner: the owner
  * Return: pointer
  */
-
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int l1 = 0, l2 = 0;
@@ -39,14 +36,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (i = 0; i <= l1; i++)
+	for (i = 0; i < l1; i++)
 	{
 		p->name[i] = name[i];
 	}
 
-
 	p->age = age;
-
 	p->owner = malloc(l2 * sizeof(char));
 	if (p->owner == NULL)
 	{
@@ -56,7 +51,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (j = 0; j <= l2; j++)
+	for (j = 0; j < l2; j++)
 	{
 		p->owner[j] = owner[j];
 	}
