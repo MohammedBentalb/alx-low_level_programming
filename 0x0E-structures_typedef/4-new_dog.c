@@ -11,9 +11,9 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	dog_t *p;
 	int l1 = 0, l2 = 0;
 	int i, j;
-	dog_t *p;
 
 	while (name[l1])
 		l1++;
