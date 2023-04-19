@@ -6,7 +6,7 @@
  * @array: array
  * @size: size of array
  * @cmp: Function pointer
- * return: Return i || -1
+ * Return: Return i || -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
