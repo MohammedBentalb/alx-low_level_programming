@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "3-calc.h"
+#include <string.h>
+#include <stdlib.h>
 /**
  * *get_op_func - Function to get the correct opperation function
  * @s: operator
@@ -20,12 +22,15 @@ op_t ops[] = {
 	int i;
 
 	i = 0;
+
 	while (ops[i].op)
 	{
-		if (*(ops[i].op) == *s)
-			return (ops[i].f);
-		i++;
+	if (strcmp(s, ops[i].op) == 0)
+	{
+	return (ops[i].f);
 	}
-
-	return (NULL);
+	i++;
+	}
+	printf("Error\n");
+	exit(99);
 }
