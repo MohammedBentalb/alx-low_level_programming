@@ -21,6 +21,18 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
+/**
+ * op_mul - Function for mul
+ * @a: first number
+ * @b: second number
+ * Return: Return result of mul
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
 /**
  * op_div - Function for div
  * @a: first number
@@ -51,14 +63,4 @@ int op_mod(int a, int b)
 	}
 	printf("Error\n");
 	return (98);
-}
-/**
- * op_mul - Function for mul
- * @a: first number
- * @b: second number
- * Return: Return result of mul
- */
-int op_mul(int a, int b)
-{
-	return (a * b);
 }
