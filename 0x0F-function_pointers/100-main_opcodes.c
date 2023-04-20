@@ -23,7 +23,7 @@ if (argc != 2)
 }
 
 
-if (number <= 0)
+if (number < 0)
 {
 	printf("Error\n");
 	exit(2);
