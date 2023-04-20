@@ -21,13 +21,15 @@ if (argc != 2)
 	exit(1);
 }
 
- number = atoi(argv[1]);
-if (number < 0)
+
+
+if (atoi(argv[1]) < 0)
 {
 	printf("Error\n");
 	exit(2);
 }
 
+number = atoi(argv[1]);
 
 	for (i = 0; i < number; i++)
 	{
