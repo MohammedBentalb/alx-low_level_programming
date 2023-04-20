@@ -30,14 +30,14 @@ if (number < 0)
 }
 
 
-for (i = 0; i < bytes; i++)
+for (i = 0; i < number; i++)
 {
-if (i == bytes - 1)
+if (i == number  - 1)
 {
 printf("%02hhx\n", p_to_main[i]);
 break;
 }
-printf("%02hhx ", p_to_maini]);
+printf("%02hhx ", p_to_main[i]);
 }
 return (0);
 }
