@@ -34,7 +34,7 @@ char *operator;
 	}
 
 
-	if ((*operator == '/' && number2 == 0) ||(*operator == '%' && number2 == 0))
+	if ((*operator == '/' && number2 == 0) || (*operator == '%' && number2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
