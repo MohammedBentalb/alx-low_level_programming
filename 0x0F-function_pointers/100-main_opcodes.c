@@ -29,7 +29,8 @@ if (atoi(argv[1]) < 0)
 	exit(2);
 }
 
-number = atoi(argv[1]);
+	number = atoi(argv[1]);
+	p_to_main = (char *)main;
 
 	for (i = 0; i < number; i++)
 	{
