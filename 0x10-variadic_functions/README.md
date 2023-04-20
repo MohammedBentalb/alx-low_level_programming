@@ -1,0 +1,4 @@
+#TASK
+~~~~
+C - Variadic functions
+~~~~
