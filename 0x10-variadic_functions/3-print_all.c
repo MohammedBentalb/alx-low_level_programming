@@ -38,6 +38,9 @@ void print_all(const char * const format, ...)
 					p = "(nill)";
 				printf("%s%s", comma, p);
 				break;
+			default:
+				i++;
+				continue;
 		}
 		i++;
 		comma = ", ";
