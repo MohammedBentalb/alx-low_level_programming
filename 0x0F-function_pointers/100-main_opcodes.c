@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 	int number;
 	int i;
 
-	number = atoi(argv[1]);
 
 if (argc != 2)
 {
@@ -29,6 +28,7 @@ if (number < 0)
 	exit(2);
 }
 
+	number = atoi(argv[1]);
 	p_to_main = (char *)main;
 
 	for (i = 0; i < number; i++)
