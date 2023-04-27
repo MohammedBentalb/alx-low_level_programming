@@ -9,9 +9,10 @@ void free_list(list_t *head)
 {
 	list_t *addr;
 
-	while(head)
+	while (head)
 	{
 		addr = head->next;
+		free(head->str);
 		free(head);
 		head = addr;
 	}
