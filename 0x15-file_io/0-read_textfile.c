@@ -4,7 +4,7 @@
  * read_textfile -Function that prints a text file to posix
  * @filename: the file name
  * @letters: number
- * @Return: Return w (number)
+ * Return: Return w (number)
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
