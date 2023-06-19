@@ -1,4 +1,0 @@
-#Task
-~~~~
-C - Dynamic libraries
-~~~~
