@@ -1,4 +1,0 @@
-#Task
-~~~~
-hash_tables
-~~~~
